@@ -1,2 +1,4 @@
-package com.nttdata.bankaccountmanagementsystem;public class BankAccount {
+package com.nttdata.bankaccountmanagementsystem;
+
+public class BankAccount {
 }
