@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ddb0f8-f553-4547-9d70-4f899e480ae5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccountValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/exceptions/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/ui/ConsoleInputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/BancoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/BancoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +49,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -46,7 +62,7 @@
       <module name="BankAccountManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nttdata.bankaccountmanagementsystem.*" />
+          <option name="PATTERN" value="com.nttdata.bankaccountmanagementsystem.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,6 +1,10 @@
-package com.nttdata.bankaccountmanagementsystem;
+package com.nttdata.bankaccountmanagementsystem.entity;
 
+import com.nttdata.bankaccountmanagementsystem.account.BankAccount;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Client {
@@ -11,21 +15,14 @@ public class Client {
     private String lastName;
     private String dni;
     private String email;
+    private List<BankAccount> accounts = new ArrayList<>();
 
-    private Client(String name, String lastName, String dni, String email) {
+
+    public Client(String name, String lastName, String dni, String email) {
         this.name = name;
         this.lastName = lastName;
         this.dni = dni;
         this.email = email;
-    }
-
-    public static Client register(String name, String lastName, String dni
-    , String email){
-        Client client = new Client(name, lastName, dni
-        ,email);
-        clients.put(dni, client);
-
-        return client;
     }
 
     public String getName() {
@@ -68,5 +65,15 @@ public class Client {
                 ", dni='" + dni + '\'' +
                 ", email='" + email + '\'' +
                 '}';
+    }
+
+    public List<BankAccount> getAccounts() {
+        return accounts;
+    }
+
+    public void addAccount(BankAccount account) {
+        if (account != null) {
+            accounts.add(account);
+        }
     }
 }
