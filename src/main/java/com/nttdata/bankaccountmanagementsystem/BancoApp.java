@@ -11,7 +11,7 @@ import com.nttdata.bankaccountmanagementsystem.exceptions.BusinessException;
 public class BancoApp {
     public static void main(String[] args) {
         // I create a client
-        Client client = new Client("Ana", "Soto", "12345678", "ana@example.com");  // Email con formato incorrecto para probar validación
+        Client client = new Client("Ana", "Soto", "12345678", "ana@example.com");
 
         Client registeredClient = null;
         try {
