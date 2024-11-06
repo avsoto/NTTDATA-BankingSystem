@@ -3,14 +3,17 @@ package com.nttdata.bankaccountmanagementsystem;
 import com.nttdata.bankaccountmanagementsystem.account.BankAccount;
 import com.nttdata.bankaccountmanagementsystem.account.BankAccountValidator;
 import com.nttdata.bankaccountmanagementsystem.account.CheckingAccount;
+import com.nttdata.bankaccountmanagementsystem.database.DataBaseConnection;
 import com.nttdata.bankaccountmanagementsystem.entity.Client;
 import com.nttdata.bankaccountmanagementsystem.account.SavingsAccount;
 import com.nttdata.bankaccountmanagementsystem.entity.ClientRegistry;
 import com.nttdata.bankaccountmanagementsystem.exceptions.BusinessException;
 
+import java.sql.Connection;
+
 public class BancoApp {
     public static void main(String[] args) {
-        // I create a client
+        /* // I create a client
         Client client = new Client("Ana", "Soto", "12345678", "ana@example.com");
 
         Client registeredClient = null;
@@ -63,6 +66,13 @@ public class BancoApp {
             );
         } else {
             System.out.println("Client registration failed. Accounts cannot be added.");
+        }*/
+
+        Connection connection = DataBaseConnection.getConnection();
+        if (connection != null) {
+            System.out.println("Successful connection to the database.");
+        } else {
+            System.out.println("Error connecting to database.");
         }
     }
 }
