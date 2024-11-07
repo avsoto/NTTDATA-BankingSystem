@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37ddb0f8-f553-4547-9d70-4f899e480ae5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/BancoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/BancoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccountValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/BankAccountValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/account/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/database/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/database/DataBaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/entity/ClientValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/ui/ConsoleInputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/bankaccountmanagementsystem/ui/ConsoleInputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "features/databaseConnection",
+    "git-widget-placeholder": "features/Inputs",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
