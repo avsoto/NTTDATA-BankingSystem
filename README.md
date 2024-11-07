@@ -17,4 +17,4 @@ This project involves developing a basic banking system in Java that manages cli
 
 ### Class Diagram
 
-![Banking System UML Diagram](https://i.ibb.co/0y86nJd/bank-System-drawio-1.png)
+![Banking System UML Diagram](https://i.ibb.co/6YnS1hD/bank-System-drawio-2.png)
