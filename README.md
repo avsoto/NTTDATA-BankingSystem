@@ -1,16 +1,20 @@
-# NTTDATA-BankingSystem
-### Descripción del Proyecto
+### NTTDATA-BankingSystem
+### Project Description
 
-El proyecto consiste en desarrollar un sistema bancario básico en Java que permita gestionar clientes y sus cuentas bancarias, implementando las funcionalidades de registro de clientes, apertura de cuentas, depósitos, retiros y consulta de saldo. El sistema aplicará reglas de negocio específicas, como la restricción de saldo negativo en cuentas de ahorro y un límite de sobregiro para cuentas corrientes.
+This project involves developing a basic banking system in Java that manages clients and their bank accounts. The system will implement functionalities for client registration, account creation, deposits, withdrawals, and balance inquiries. It will also apply specific business rules, such as preventing negative balances in savings accounts and imposing overdraft limits on checking accounts.
 
-### Características del Sistema
+### System Features
 
-- **Modelo de Clases**: Diagramas UML para modelar los objetos **Cliente** y **Cuenta Bancaria** con principios de POO.
-- **Persistencia de Datos**: Implementación en memoria usando estructuras como `HashMap` o `ArrayList` para operaciones básicas (insertar, seleccionar y actualizar).
-- **Validaciones**: Reglas de negocio y validación de datos de clientes (DNI único, formato de email) y transacciones bancarias.
-- **Tecnologías Usadas**: Java 8 y 11.
+- **Class Model**: UML diagrams to model the **Client** and **Bank Account** objects using Object-Oriented Programming principles.
+- **Data Persistence**: In-memory implementation using structures like `HashMap` or `ArrayList` for basic operations (insert, select, and update).
+- **Validations**: Business rules and client data validation (unique DNI, email format) and banking transaction checks.
+- **Technologies Used**: Java 8 and 11.
 
-### Requerimientos del Proyecto
+### Project Requirements
 
-- **Funcionalidad Obligatoria**: Creación de clases de dominio, manejo de persistencia en memoria o MySQL, y verificación de integridad y restricciones de datos.
-- **Entregables**: Diagrama de clases, scripts SQL (opcional), y el código en un repositorio GitHub, con avances diarios.
+- **Mandatory Functionality**: Creation of domain classes, in-memory or MySQL persistence management, and verification of data integrity and constraints.
+- **Deliverables**: Class diagrams, optional SQL scripts, and the code hosted on a GitHub repository, with daily progress updates.
+
+### Class Diagram
+
+![Banking System UML Diagram](https://i.ibb.co/0y86nJd/bank-System-drawio-1.png)
