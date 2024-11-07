@@ -19,4 +19,14 @@ public class SavingsAccount extends BankAccount{
         }
         this.balance -= amount;
     }
+
+    @Override
+    public String toString() {
+        return "SavingsAccount{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", balance=" + balance +
+                ", accountType=" + accountType +
+                ", client=" + client +
+                '}';
+    }
 }

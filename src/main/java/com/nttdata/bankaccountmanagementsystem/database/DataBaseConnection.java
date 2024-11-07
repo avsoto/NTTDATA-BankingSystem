@@ -9,24 +9,28 @@ import java.util.Properties;
 
 public class DataBaseConnection {
 
+    /**
+     * Establishes and returns a Connection object to the database using the
+     * configuration details from the 'database.properties' file.
+     *
+     * @return a Connection object if the connection is successful, or null
+     *         if an exception occurs
+     */
     public static Connection getConnection() {
         Connection connection = null;
         Properties properties = new Properties();
         try {
-            // Cargar el archivo de propiedades
             FileInputStream input = new FileInputStream("src/database.properties");
             properties.load(input);
 
-            // Obtener propiedades de conexión
             String url = properties.getProperty("db.url");
             String user = properties.getProperty("db.username");
             String password = properties.getProperty("db.password");
             String driver = properties.getProperty("db.driver");
 
-            // Cargar el driver
             Class.forName(driver);
 
-            // Establecer la conexión
+            // Establish the connection
             connection = DriverManager.getConnection(url, user, password);
 
         } catch (IOException | ClassNotFoundException | SQLException e) {

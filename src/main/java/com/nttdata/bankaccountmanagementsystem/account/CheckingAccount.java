@@ -24,8 +24,13 @@ public class CheckingAccount extends BankAccount{
         this.balance -= amount;
     }
 
-    // Method to obtain the overdraft limit, if necessary
-    public static double getOverdraftLimit() {
-        return OVERDRAFT_LIMIT;
+    @Override
+    public String toString() {
+        return "CheckingAccount{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", balance=" + balance +
+                ", accountType=" + accountType +
+                ", client=" + client +
+                '}';
     }
 }

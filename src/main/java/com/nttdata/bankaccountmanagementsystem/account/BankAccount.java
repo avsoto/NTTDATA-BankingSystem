@@ -17,35 +17,14 @@ public abstract class BankAccount {
         this.client = client;
     }
 
-    public String getAccountNumber() {
-        return accountNumber;
-    }
-
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
     public double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
 
-    public AccountType getAccountType() {
-        return accountType;
-    }
-
-    public void setAccountType(AccountType accountType) {
-        this.accountType = accountType;
-    }
-
-    public Client getClient() {
-        return client;
-    }
-
-    // Abstract method that must be implemented by each type of account
+    /**
+     *Abstract method that must be implemented by each type of account
+     **/
     public abstract void withdraw(double amount) throws BusinessException;
 
     public void deposit(double amount) {
@@ -55,6 +34,13 @@ public abstract class BankAccount {
         this.balance += amount;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", balance=" + balance +
+                ", accountType=" + accountType +
+                ", client=" + client +
+                '}';
+    }
 }
